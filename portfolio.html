@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <script>
+        var about = new Audio();
+        about.src = 'sound/about.mp3';
+    </script>
+    <script>
+        var homepage = new Audio();
+        homepage.src = 'sound/homepage.mp3';
+    </script>
+    <script>
+        var taskManager = new Audio();
+        taskManager.src = 'sound/taskmanager.mp3';
+    </script>
+    <script>
+        var blockbuster = new Audio();
+        blockbuster.src = 'sound/blockbuster.mp3';
+    </script>
+    <script>
+        var gymManager = new Audio();
+        gymManager.src = 'sound/gymmanager.mp3';
+    </script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="button" onmousemove="homepage.play();">Homepage</a>
+
+        <a href="about.html" class="button" onmousemove="about.play();">About</a>
+    </header>
+    <br>
+    <br>
+    <p>Listed below are some of the apps that I am the most proud of! Give them a check out!</p>
+    <br>
+    <a href="https://github.com/barrste1/Blockbuster" class="button1" onmousemove="blockbuster.play();">Block Buster</a>
+    <p> This functions as a movie checkout/play app, and was an introduction to OOP.</p>
+    <br>
+    <a href="https://github.com/barrste1/taskManagerCapstone" class="button1" onmousemove="taskManager.play();">Task Manager</a>
+    <p> This lab featured heavy use of methods, and console based GUI.</p>
+    <br>
+    <a href="https://github.com/simondesalvo/midtermproj" class="button1" onmousemove="gymManager.play();">Gym Manager</a>
+    <p> First group project app. Large project with a lot of OOP.</p>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+
+</html>
